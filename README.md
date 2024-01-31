@@ -1,3 +1,5 @@
+# `BS::thread_pool`: Forked to add support for `ExternalProject_Add` (CMake)
+
 [![Static Badge](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.4742687-b31b1b)
 ](https://doi.org/10.5281/zenodo.4742687)
 [![arXiv:2105.00613](https://img.shields.io/badge/arXiv-2105.00613-b31b1b)
