@@ -12,8 +12,7 @@ set(CURRENT_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/include)
 cmake_path(NORMAL_PATH CURRENT_SOURCE_DIR)
 
 set(EXPORT_HEADERS
-    ${CURRENT_SOURCE_DIR}/BS_thread_pool.hpp
-	${CURRENT_SOURCE_DIR}/BS_thread_pool_utils.hpp)
+    ${CURRENT_SOURCE_DIR}/BS_thread_pool.hpp)
 
 add_library(ThreadPool INTERFACE)
 target_sources(ThreadPool PUBLIC FILE_SET HEADERS BASE_DIRS ${CURRENT_SOURCE_DIR} FILES ${EXPORT_HEADERS})
